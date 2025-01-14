@@ -1,1 +1,30 @@
-
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+.directory{
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+h2{
+  font-size: 20px;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+  padding-left: 20px;
+}
+.folder{
+  cursor: pointer;
+  font-weight: bold;
+}
+.folder ul{
+  display: none;
+}
+.folder.open ul{
+  display: block;
+}
