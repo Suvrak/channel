@@ -1,13 +1,9 @@
 body {
-    background-color: black;
+    background-color: #262626;
     font-family: Arial, sans-serif;
-}
-h1{
-    color: white;
-    text-align: center;
 }
 p{
     color: white;
-    text-align: center;
-    font-size: x-small
+    text-align:-webkit-center;
+    font-size: -webkit-xxx-largesmall;
 }
