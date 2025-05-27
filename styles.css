@@ -1,9 +1,18 @@
-body {
-    background-color: #262626;
-    font-family: Arial, sans-serif;
+body{
+    background-color: #3c3c3c;
+    font-family: serif;
 }
-p{
+.firstblock{
+    background-color: #282828;
+    border-radius: 5px;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 5px;
+    box-shadow: 4px 8px rgba(0,0,0,0.1)
+}
+.txt1{
     color: white;
-    text-align:-webkit-center;
-    font-size: -webkit-xxx-largesmall;
+    text-align:center;
+    transform:translateY(-50%);
 }
