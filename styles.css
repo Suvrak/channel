@@ -55,12 +55,12 @@ body {
 
 .channel-button:hover {
     background-color: #111;
-    border-color: #444;
+    border-color: #ffffff;
 }
 
 .channel-button:active {
-    background-color: #050505;
-    border-color: #111
+    background-color: #3c3c3c;
+    border-color: 2px solid #ffffff;
 }
 
 /* Элементы внутри кнопок */
