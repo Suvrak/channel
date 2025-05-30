@@ -1,18 +1,92 @@
-body{
-    background-color: #3c3c3c;
-    font-family: serif;
+/* Базовые настройки */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.firstblock{
-    background-color: #282828;
-    border-radius: 5px;
-    width: 95%;
-    margin: 0 auto;
-    position: relative;
-    padding-top: 5px;
-    box-shadow: 4px 8px rgba(0,0,0,0.1)
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
-.txt1{
-    color: white;
-    text-align:center;
-    transform:translateY(-50%);
+
+/* Шапка */
+.header {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -1px;
+    padding: 25px 10px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #fff;
+    width: 100%;
+    max-width: 800px;
+    text-shadow: 0 0 5px rgba(255,255,255,0.3);
+}
+
+/* Контейнер каналов */
+.channels-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Кнопки каналов */
+.channel-button {
+    background-color: #111;
+    border: 2px solid #333;
+    border-radius: 0;
+    color: #fff;
+    padding: 16px 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 1.1rem;
+}
+
+.channel-button:hover {
+    background-color: #222;
+    border-color: #555;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.channel-button:active {
+    background-color: #0a0a0a;
+    transform: translateY(0);0
+}
+
+/* Элементы внутри кнопок */
+.social-icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    width: 30px;
+    text-align: center;
+}
+
+.channel-name {
+    flex-grow: 1;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.channel-avatar {
+    border-radius: 50%;
+    border: 2px solid #444;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    margin-left: 10px;
+    background-color: #222;
 }
