@@ -60,6 +60,7 @@ body {
 
 .channel-button:active {
     background-color: #050505;
+    border-color: #111
 }
 
 /* Элементы внутри кнопок */
